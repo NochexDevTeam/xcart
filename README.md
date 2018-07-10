@@ -3,7 +3,7 @@ Nochex Module for XCart 4
 
 Installation
 ============
-To Install and Setup the Nochex module please follow our integration guide, which can be found <a href="https://support.nochex.com/kb/faq.php?cid=15">here</a>
+To Install and Setup the Nochex module please follow our integration guide, which can be found <a href="https://support.nochex.com/kb/faq.php?id=240">here</a>
 
 Support
 =====================
