@@ -1,4 +1,4 @@
-Nochex Module for XCart 4 
+Nochex Module for XCart 5.5
 ============
 
 Installation
@@ -14,7 +14,11 @@ Visit our Knowledgebase for support: https://support.nochex.com/
 Changelog
 ====================
 
-= 2 =
+= 3 =
+
+- Upgraded to support the latest version of XCart
+
+= 2 = Deprecated
 
   * APC updated to Support TLS 1.2
   
