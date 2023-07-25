@@ -1,0 +1,10 @@
+version: 5.5.0.0
+type: payment
+authorName: 'Nochex'
+moduleName: 'Nochex Module'
+description: 'Allows you to make payments via the Nochex.'
+minorRequiredCoreVersion: 0
+dependsOn: {  }
+incompatibleWith: {  }
+showSettingsForm: false
+canDisable: true
