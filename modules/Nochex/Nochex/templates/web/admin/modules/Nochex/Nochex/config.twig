@@ -1,0 +1,27 @@
+{##
+ # Nochex API configuration page
+ #}
+
+<ul class="table model-properties settings-table nochex">
+  <li>
+    {{ widget('XLite\\View\\FormField\\Input\\Text',
+      fieldName='settings[merchantid]',
+      fieldId='settings_merchantid',
+      value=this.paymentMethod.getSetting('merchantid'),
+      label=t('Merchant ID'),
+      required='true'
+    ) }}
+  </li>  
+  <li>
+    {{ widget('XLite\\View\\FormField\\Select\\Regular',
+      fieldId='settings_testmode',
+      fieldName='settings[testmode]',
+      value=this.paymentMethod.getSetting('testmode'),
+      options={
+        'LIVE': t('LIVE'),
+        'TEST': t('TEST')
+      },
+      label=t('Transaction Type')
+    ) }}
+  </li>
+</ul>

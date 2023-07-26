@@ -1,0 +1,19 @@
+XLite\Model\Payment\Method:
+  - 
+    service_name: 'Nochex'
+    class: Nochex\Nochex\Model\Payment\Processor\Nochex
+    added: true
+    type: C
+    countries: [GB]
+    translations:
+      - code: en
+        name: 'Nochex'
+    settings: [{ name: merchantid }, { name: testmode, value: 'LIVE' }]
+XLite\Model\LanguageLabel:
+  -
+    name: 'Merchant ID'
+    translations: [{ code: en, label: 'Merchant ID' }]
+
+  -
+    name: 'Transaction Type'
+    translations: [{ code: en, label: 'Transaction Type' }]
